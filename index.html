@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dildos Grandes y Fantásticos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header class="main-header" id="header">
+        <img src="img/logo.jpg" alt="Logotipo de Dildos Grandes y Fantásticos">
+        <h1>Busca el Dildo de tu Talla</h1>
+        
+        <p>En esta página nos encargamos de buscar los mejores Dildos para ti, 
+        tenemos de todos los tamaños, colores y sabores; solo dinos qué es lo que 
+        quieres y nosotros te lo conseguimos.</p>
+        <p><strong>Recuerda que el tamaño sí importa</strong></p>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#productos-section">Productos</a></li>
+                <li><a href="#pedido-section">Pedido</a></li> 
+                <li><a href="#mapa-section">Mapa</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="products-section" id="productos-section">
+        <h2>Productos</h2>
+        <div class="owl-carousel owl-theme">
+            
+            <div class="product item">
+                <h3>Dildo Gigante</h3>
+                <p>El más grande de todos, para los que les gusta lo extremo.</p>
+                <img src="img/gigante.jpg" alt="Dildo de tamaño gigante">
+                <a href="https://www.falabella.com.co/falabella-co/product/132067687/Consolador-Alien-colores/132067688" class="buy-button" target="_blank">Comprar Ahora</a>
+            </div>
+            
+            <div class="product item">
+                <h3>Dildo Mediano</h3>
+                <p>Perfecto para los que quieren un poco más de sensación.</p>
+                <img src="img/mediano.jpg" alt="Dildo de tamaño mediano">
+                <a href="https://www.mercadolibre.com.co/juguetes-sexuales-dildo-masturbador-en-gel--mediano-erotico/up/MCOU2590950850" class="buy-button" target="_blank">Comprar Ahora</a>
+            </div>
+            
+            <div class="product item">
+                <h3>Dildo Pequeño</h3>
+                <p>Ideal para principiantes o para llevar a todas partes.</p>
+                <img src="img/pequeño.jpg" alt="Dildo de tamaño pequeño">
+                <a href="https://tiendacereza.com/collections/minivibradores/products/vibrador-pickle-pepper" class="buy-button" target="_blank">Comprar Ahora</a>
+            </div>
+            
+             <div class="product item">
+                <h3>Dildo Exótico</h3>
+                <p>Ideal para los amantes de lo exótico.</p>
+                <img src="img/exotico.jpg" alt="Dildo exótico con forma de tentáculo">
+                <a href="https://luden.store/productos/hokusai-tentaculo-xxl-fantasy-pre-lanzamiento-copia" class="buy-button" target="_blank">Comprar Ahora</a>
+            </div>
+            
+            <div class="product item">
+                <h3>Dildo Gamer</h3>
+                <p>Ideal para que te alumbre el trasero. ¡Con luces RGB!</p>
+                <img src="img/gamer.jpg" alt="Dildo con luces LED RGB, estilo 'gamer'">
+                <a href="https://www.etsy.com/listing/1577919182/glow-in-the-dark-dino-dick-dickasaurus?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=rgb+dildos&ref=sr_gallery-1-1&sts=1&content_source=2bceab85-013e-48c9-a42f-5a16632c1da3%253A921d8d4e38690c37a7130f61410f615e8970952b&organic_search_click=1&logging_key=2bceab85-013e-48c9-a42f-5a16632c1da3%3A921d8d4e38690c37a7130f61410f615e8970952b" class="buy-button" target="_blank">Comprar Ahora</a>
+            </div>
+            
+            <div class="product item">
+                <h3>Dildo Vibrador</h3>
+                <p>El mejor para que te vibre hasta el alma.</p>
+                <img src="img/vibrador.jpg" alt="Dildo con función vibratoria">
+                <a href="https://sexcretos.com/product/2-consolador-vibrador-de-empuje" class="buy-button" target="_blank">Comprar Ahora</a>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="pedido-section" class="form-section">
+        <h2>Pide tu Dildo Personalizado</h2>
+        <form id="custom-order-form" class="custom-form">
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" name="name" required minlength="3">
+            <span class="error-message" id="name-error"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" id="email-error"></span>
+
+            <label for="size">Tamaño deseado (cm):</label>
+            <input type="number" id="size" name="size" required min="10" max="40">
+            <span class="error-message" id="size-error"></span>
+
+            <label for="description">Características especiales:</label>
+            <textarea id="description" name="description" required minlength="10"></textarea>
+            <span class="error-message" id="description-error"></span>
+
+            <button type="submit">Enviar Pedido</button>
+            <p id="form-success-message" class="success-message"></p>
+        </form>
+    </section>
+    
+    <section id="mapa-section" class="map-section">
+        <h2>Mapa</h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.133750380653!2d-75.5682110038006!3d6.24609947293679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442858283e4af9%3A0xe323531db7977b0a!2s%22CENDI%22%20Corporaci%C3%B3n%20Centro%20de%20Desarrollo%20Integrado%20Instituci%C3%B3n%20de%20Educaci%C3%B3n!5e0!3m2!1ses-419!2sco!4v1759868570769!5m2!1ses-419!2sco" width="1200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <a href="#header" class="scroll-to-top" aria-label="Volver al inicio"><i class="fas fa-arrow-up"></i></a>
+    
+    <footer id="footer">
+        <h2>Contacto:</h2>
+        <p>Si tienes alguna pregunta o deseas realizar un pedido especial, no dudes en contactarnos a través de nuestras redes sociales:</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/omar.molina.445437?locale=es_LA" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/mols_col" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@mols_col" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+        <p class="copyright">© 2025 Dildos Grandes y Fantásticos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
